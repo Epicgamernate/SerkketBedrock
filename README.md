@@ -31,5 +31,6 @@ Play with friends from anywhere, anytime, always
 ### 9: All editions!
 Play with people from bedrock AND java!
 
+#### Supported server types:
 - [x] Vanilla
 - [ ] Pocketmine (Plugin Support)

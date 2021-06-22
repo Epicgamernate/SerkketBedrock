@@ -1,7 +1,7 @@
 # SerkketBedrock
 A free minecraft server builder fit for even the **noobiest** of server makers!
 
-Looking for [Serkket Java?](https://github.com/Epicgamernate/Serkket/)
+### Looking for [Serkket Java?](https://github.com/Epicgamernate/Serkket/)
 
 ## Why?
 ### 1: Completley free

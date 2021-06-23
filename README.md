@@ -33,4 +33,5 @@ Play with people from bedrock AND java!
 
 #### Supported server types:
 - [x] Vanilla
-- [ ] Pocketmine (Plugin Support)
+- [ ] OpenTouch (Mods)
+- [ ] PowerNukkit (Stuff in general)

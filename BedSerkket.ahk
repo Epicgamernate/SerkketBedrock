@@ -21,18 +21,18 @@ FileCreateDir, %UserInput%
 SetWorkingDir %UserInput%
 if !FileExist("bedrock_server.exe") {
 UrlDownloadToFile, https://github.com/Epicgamernate/SerkketBedrock/releases/download/SDv1/Uzip.bat, Uzip.bat
-UrlDownloadToFile, https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.1.01.zip, Bedrock.zip
+UrlDownloadToFile, https://minecraft.azureedge.net/bin-win/bedrock-server-1.17.2.01.zip, Bedrock.zip
 RunWait cmd.exe /c "call Uzip.bat Bedrock.zip"
 }
 if !FileExist("Tunnel.exe") {
-UrlDownloadToFile, https://playit.gg/downloads/playit-win_64-0.4.3-rc2.exe, Tunnel.exe
+UrlDownloadToFile, https://playit.gg/downloads/playit-win_64-0.4.4.exe, Tunnel.exe
 }
 if !FileExist("Run.bat") {
 FileAppend,
 (
 @echo off
 color 0A
-title %UserInput% Server - ALPHA 5
+title %UserInput% Server - BEDROCK ALPHA 1
 cls
 echo Starting %UserInput% Server...
 start Tunnel.exe
